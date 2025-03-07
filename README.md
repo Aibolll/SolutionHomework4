@@ -21,7 +21,7 @@ src/
 - **Singleton Pattern:** `ConfigurationManager` ensures a single instance for managing application configurations.
 - **Adapter Pattern:** `ChatServiceAdapter` allows the new `ChatService` to work with the old `LegacyChatService`.
 
-## 🛠 Installation & Setup
+##  Installation & Setup
 1. Clone the repository:
    ```sh
    git clone <repository-url>
@@ -46,6 +46,6 @@ Legacy Chat: Hello world!
 - Make sure `Main.java` is inside the `com.myapp` package to avoid package errors.
 - If facing issues, **rebuild the project** (Ctrl + F9 in IntelliJ IDEA).
 
-## 📝 License
+##  License
 This project is licensed under the **MIT License**.
 
