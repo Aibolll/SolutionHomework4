@@ -1,9 +1,9 @@
 # Chat Service & Configuration Manager
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates the use of **Singleton** and **Adapter** design patterns in a Java application. It consists of a **Configuration Manager** (Singleton) for managing application settings and a **Chat Service Adapter** (Adapter) for integrating legacy chat functionality.
 
-## 📂 Project Structure
+##  Project Structure
 ```
 src/
 ├── com/
@@ -17,11 +17,11 @@ src/
 │   │   │   ├── ConfigurationManager.java
 ```
 
-## 🚀 Features
+##  Features
 - **Singleton Pattern:** `ConfigurationManager` ensures a single instance for managing application configurations.
 - **Adapter Pattern:** `ChatServiceAdapter` allows the new `ChatService` to work with the old `LegacyChatService`.
 
-## 🛠️ Installation & Setup
+## 🛠 Installation & Setup
 1. Clone the repository:
    ```sh
    git clone <repository-url>
@@ -34,7 +34,7 @@ src/
    java -cp out com.myapp.Main
    ```
 
-## 📜 Usage
+##  Usage
 Run `Main.java`, and you should see output demonstrating both design patterns:
 ```sh
 Max Players: 100
@@ -42,7 +42,7 @@ Configuration Settings: {...}
 Legacy Chat: Hello world!
 ```
 
-## 📌 Notes
+##  Notes
 - Make sure `Main.java` is inside the `com.myapp` package to avoid package errors.
 - If facing issues, **rebuild the project** (Ctrl + F9 in IntelliJ IDEA).
 
