@@ -4,9 +4,9 @@ public class ConfigManagerDemo {
     public static void main(String[] args) {
         ConfigurationManager configManager = ConfigurationManager.getInstance();
 
-        System.out.println("Max Players: " + configManager.getConfig("maxPlayers"));
-        System.out.println("Default Language: " + configManager.getConfig("defaultLanguage"));
-        System.out.println("Game Difficulty: " + configManager.getConfig("gameDifficulty"));
+        System.out.printf("Max Players: %s%n", configManager.getConfig("maxPlayers"));
+        System.out.printf("Default Language: %s%n", configManager.getConfig("defaultLanguage"));
+        System.out.printf("Game Difficulty: %s%n", configManager.getConfig("gameDifficulty"));
 
         System.out.println("\nPrinting all configurations:");
         configManager.printConfigurations();
